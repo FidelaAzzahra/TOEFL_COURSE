@@ -1,0 +1,709 @@
+<!--Fidela Azzahra-->
+<!-- Web Developer 1 bulan -->
+
+<!DOCTYPE html>
+<html lang="en"> <!-- Bahasa HTML inggris -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TOEFL Course</title>
+
+    <!-- Link ke file css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Link untuk import jenis font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+
+    <!-- link menggunakan bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
+    
+    <!-- link ke css dari w3school -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .videoSlider {display:none;}
+    </style>
+</head>
+
+<body>
+    <!-- Navbar/menu navigasi -->
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/toefl.png" alt="logo detail">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="#profil">Profil</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#program">Program</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#mentor">Mentor</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#gallery">Galeri</a>
+                    </li>  
+
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#artikel">Berita dan Artikel</a>
+                    </li>    
+
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#testimoni">Testimoni</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel foto (yg fotonya berganti dengan sendiri) -->
+    <section class="banner">
+    	<div class="owl-carousel owl-theme carousel-sliders">
+	    	<div class="item">
+	        	<img src="images/slide1.png" alt="Slider">
+	        	<div class="overlay-bg"></div>
+	        	<div class="container">
+	            	<div class="caption">
+	            		<h5 class="caption-supheading">Selamat Datang di TOEFL Course</h5>
+		                <h1 class="caption-heading">Tempat Kursus TOEFL Terbaik di Indonesia</h1> <br>		
+                        <p style="color: white; font-weight: 600;">TOEFL Course merupakan platform yang menawarkan beragam program persiapan dan pengembangan diri untuk mendukung generasi muda Indonesia dalam menghadapi ujian TOEFL, dengan fleksibilitas akses yang memungkinkan mereka belajar kapan saja dan di mana saja
+                        </p> <br> <br>
+                        <a class="btn-login" href="login.html">Login</a> <a class="btn-register" href="register.html">Registration</a>            
+		            </div>  
+	            </div>
+	    	</div>
+
+	    	<div class="item">
+	            <img src="images/slide2.png" alt="Slider">
+	            <div class="overlay-bg"></div>
+	            <div class="container">
+	            	<div class="caption">
+		                <h5 class="caption-supheading">Selamat Datang di TOEFL Course</h5>
+		                <h1 class="caption-heading">Kami Membantumu Meraih Mimpi</h1> <br>
+                        <p style="color: white; font-weight: 600;">TOEFL Course merupakan platform yang menawarkan beragam program persiapan dan pengembangan diri untuk mendukung generasi muda Indonesia dalam menghadapi ujian TOEFL, dengan fleksibilitas akses yang memungkinkan mereka belajar kapan saja dan di mana saja
+                        </p>  
+                        <br> <br>
+                        <a class="btn-login" href="#">Login</a> <a class="btn-register" href="#">Registration</a> 	                
+		            </div>  
+	            </div>
+	        </div>  
+            
+	    	<div class="item">
+	            <img src="images/slide3.png" alt="Slider"> 
+	            <div class="overlay-bg"></div>
+	            <div class="container">
+	            	<div class="caption">
+		                <h5 class="caption-supheading">Selamat Datang di TOEFL Course</h5>
+		                <h1 class="caption-heading">Wujudkan Mimpimu Bersama Kami</h1> <br>
+                        <p style="color: white; font-weight: 600;">TOEFL Course merupakan platform yang menawarkan beragam program persiapan dan pengembangan diri untuk mendukung generasi muda Indonesia dalam menghadapi ujian TOEFL, dengan fleksibilitas akses yang memungkinkan mereka belajar kapan saja dan di mana saja
+                        </p>   
+                        <br> <br>
+                        <a class="btn-login" href="#">Login</a> <a class="btn-register" href="#">Registration</a>	            
+		            </div>  
+	            </div>
+	        </div>  
+    	</div>
+	    <div class="custom-nav owl-nav"></div>
+    </section>
+
+    <!-- konten profil perusahaan -->
+    <section id="profil">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="w-100 p-3" src="images/perusahaan.png" alt="Profil perusahaan">
+                </div> <br>
+                <div class="col-md-6">
+                    <div class="konten-profil">
+                        <h2 class="section-subtitle">Profil Perusahaan</h2>
+                        <h1 class="section-title">PT. Teknologi Fluent Edu</h1>
+                        <p>
+                            PT. Teknologi Fluent Edu didirikan dengan visi yang jelas: membuka pintu menuju kesempatan global bagi generasi muda Indonesia. 
+                            Sebagai pengembang Platform Kursus TOEFL Online, TOEFL Course, perusahaan kami berkomitmen untuk menyediakan 
+                            solusi pendidikan yang inovatif dan mudah diakses bagi para pelajar yang ingin meningkatkan kemampuan bahasa Inggris mereka. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class = "profil-profile">
+                    <br> <p>Kami memahami bahwa menghadapi ujian TOEFL merupakan langkah penting dalam meraih impian mereka untuk belajar atau bekerja di luar negeri, 
+                        dan itulah mengapa kami hadir untuk memberikan dukungan yang mereka butuhkan. Di PT. Teknologi Fluent Edu, kami membangun lingkungan yang 
+                        mempromosikan pembelajaran yang mandiri dan terarah. Platform kami dirancang dengan fitur-fitur canggih yang memungkinkan para pelajar untuk belajar secara fleksibel, kapan saja, dan di mana saja mereka berada. 
+                        Dengan kurikulum yang disusun oleh para ahli bahasa Inggris terkemuka, kami menawarkan beragam program persiapan dan pengembangan diri yang sesuai dengan kebutuhan dan tingkat kemampuan masing-masing individu.
+                    </p> <br>
+                    <p>
+                        Komitmen kami tidak hanya terbatas pada penyediaan kursus, tetapi juga pada pembangunan komunitas yang mendukung pertumbuhan dan kesuksesan para pelajar kami. 
+                        Melalui forum diskusi online, webinar, dan sumber daya belajar tambahan, kami memastikan bahwa setiap pelajar merasa didukung dan termotivasi dalam perjalanan mereka menuju kesuksesan dalam ujian TOEFL 
+                        dan di luar itu, PT. Teknologi Fluent Edu berdiri sebagai mitra terpercaya bagi generasi muda Indonesia dalam menghadapi tantangan global dengan percaya diri dan kemampuan bahasa Inggris yang kuat.
+                    </p>
+                </div>
+                
+                <!-- konten profil lembaga pelatihan -->
+                <div class="col-md-15">
+                    <div class="konten-profil">
+                        <br><h2 class="section-subtitle">Profil Lembaga</h2>
+                        <h1 class="section-title">TOEFL Course</h1>
+                        <h5 style="font-weight: 600;">Visi</h5>
+                        <p style="margin-left: 30px;">Menjadi lembaga kursus TOEFL terbaik nasional, dengan metode modern, 
+                            fasilitas unggul, dan sistem mutu yang terintegrasi</p> <br>
+                         
+                        <div class = "visi-misi">
+                            <h5 style="font-weight: 600;">Misi</h5>   
+                            <p style="margin-left: 30px;">● Memberikan pengalaman belajar online interaktif dan menarik untuk mempersiapkan pelajar menghadapi ujian TOEFL</p>
+                            <p style="margin-left: 30px;">● Menyediakan kurikulum yang komprehensif, didukung oleh metode pembelajaran terkini, serta instruktur yang berpengalaman dan berkualitas</p>    
+                            <p style="margin-left: 30px;">● Mendorong pertumbuhan individu dan pencapaian tujuan akademik serta profesional para pelajar melalui dukungan yang berkelanjutan, umpan balik yang konstruktif, dan sumber daya tambahan yang bermanfaat</p>    
+                        </div>    
+                    </div> 
+                </div>   
+            </div> 
+        </div>
+    </section>
+
+    <!-- konten program kursus -->
+    <section id="program" class="program">
+        <div class="container pt-5 pb-5">
+            <h1 class="section-title">Program Kami</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="kursus mb-4">
+                        <div class="kursus-image">
+                            <img class="transition" src="images/toefl1.png" alt="detail kursus">
+                        </div>
+                        <div class="kursus-detail p-4">
+                            <h2>
+                                <a href="#">TOEFL Shortcut: Strategi Cepat Menjawab Listening, Structure, & Reading</a>
+                            </h2>
+                            <div class="kursus-info row pt-2 pb-3">
+                                <div class="col-6">
+                                    👤 Kuota Untuk 30 Orang
+                                </div>                            
+                            </div>
+                            <div class="kursus-deskripsi">
+                                <p>Materi garis besar Listening, Structure, dan Reading, serta tips & trik memahami dan menjawab soal-soal TOEFL secara cepat dan tepat</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 kursus-price">
+                                    <span>Rp 130.000</span>
+                                </div>
+                                <div class="col-6 content-right">
+                                    <a class="btn btn-secondary" href="konfirmasi.html">Beli Kelas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4">
+                    <div class="kursus mb-4">
+                        <div class="kursus-image">
+                            <img class="transition" src="images/toefl2.png" alt="detail kursus">
+                        </div>
+                        <div class="kursus-detail p-4">
+                            <h2>
+                                <a href="#">TOEFL Simulation: Tes Listening, Structure, & Reading</a>
+                            </h2>
+                            <div class="kursus-info row pt-2 pb-3">
+                                <div class="col-sm-6">
+                                    👤 Kuota Untuk 40 Orang
+                                </div>                             
+                            </div>
+                            <div class="kursus-deskripsi">
+                                <p>Program yang disusun khusus untuk menilai kemamampuan peserta dalam memahami dan menjawab soal-soal TOEFL ITP/PBT secara cepat dan tepat</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 kursus-price">
+                                    <span>Rp 90.000</span>
+                                </div>
+                                <div class="col-sm-6 kursus-join content-right">
+                                    <a class="btn btn-secondary" href="konfirmasi.html">Beli Kelas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="kursus mb-4">
+                        <div class="kursus-image">
+                            <img class="transition" src="images/toefl3.png" alt="detail kursus">
+                        </div>
+                        <div class="kursus-detail p-4">
+                            <h2>
+                                <a href="#">TOEFL Complete: Panduan Komprehensif Listening, Structure, & Reading</a>
+                            </h2>
+                            <div class="kursus-info row pt-2 pb-3">
+                                <div class="col-sm-6">
+                                    👤 Kuota Untuk 50 Orang
+                                </div> 
+                            </div>
+                            <div class="kursus-deskripsi">
+                                <p>Program yang dirancang untuk mempelajari semua aspek TOEFL secara menyeluruh, termasuk listening, structure, reading, dan tips & trik untuk menjawab soal dengan cepat</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 kursus-price">
+                                    <span>Rp 150.000</span>
+                                </div>
+                                <div class="col-sm-6 kursus-join content-right">
+                                    <a class="btn btn-secondary" href="konfirmasi.html">Beli Kelas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><h3 class="kuota-terbatas">Kuota terbatas, segera beli kelas sebelum kehabisan kuota!</h3><br>
+        </div>
+    </section>
+
+    <!-- konten mentor -->
+    <section id="mentor" class="mentor">
+        <div class="container pt-5 pb-5">
+            <h2 class="section-subtitle">Tenaga Pendidik</h2>
+            <h1 class="section-title">Mentor</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="teacher transition text-center mb-5 pt-5 pb-5">
+                        <img class="transition mb-4 mx-auto" src="images/mentor1.png" alt="Detail mentor">
+                        <h2>Koro Sensei</h2>
+                        <h4 class="mb-4">Toefl Score 677</h4>
+                        <p>
+                            Koro Sensei berasal dari Jepang dan telah menjadi guru selama lebih dari 8 tahun. 
+                            Koro Sensei memiliki pengalaman dalam menyusun materi belajar untuk sekolah dan kursus, 
+                            serta pernah menjadi pelatih dalam kompetisi bahasa Inggris tingkat internasional.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="teacher transition text-center mb-5 pt-5 pb-5">
+                        <img class="transition mb-4 mx-auto" src="images/mentor2.png" alt="Detail mentor">
+                        <h2>Irina Jelavic</h2>
+                        <h4 class="mb-4">Toefl Score 675</h4>
+                        <p>Irina Jelavic berasal dari Amerika dan telah menjadi profesor universitas selama kurang lebih 5 tahun. 
+                            Irina Jelavic merupakan orang yang sangat fasih dalam konteks speaking, grammar, serta listening dan pernah 
+                            mendapatkan predikat sebagai profesor termuda sepanjang sejarah Amerika
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="teacher transition text-center mb-5 pt-5 pb-5">
+                        <img class="transition mb-4 mx-auto" src="images/mentor3.png" alt="Detail mentor">
+                        <h2>Tadaomi Karasuma</h2>
+                        <h4 class="mb-4">Toefl Score 669</h4>
+                        <p>Tadaomi Karasuma berasal dari Jepang dan merupakan mantan prajurit angkatan darat. Walau kini bekerja
+                            di kementrian pertahanan Jepang, Karasuma pernah menjadi translator ketika bekerja dibawah perdana menteri Jepang
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="gallery" class="gallery">
+        <div class="container pt-5 pb-5">
+            <h2 class="section-subtitle">Galeri Foto dan Video</h2>
+            <!-- konten galeri -->
+            <h1 class="section-title">Galeri Foto</h1>
+            <div class="row">
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/galeri1.png" data-fancybox>
+                        <img class="transition" src="images/galeri1.png" alt="image detail">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/galeri2.jpg" data-fancybox>
+                        <img class="transition" src="images/galeri2.jpg" alt="image detail">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/galeri3.jpeg" data-fancybox>
+                        <img class="transition" src="images/galeri3.jpeg" alt="image detail">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/galeri4.jpg" data-fancybox>
+                        <img class="transition" src="images/galeri4.jpg" alt="image detail">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/galeri5.png" data-fancybox>
+                        <img class="transition" src="images/galeri5.png" alt="image detail">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-6 gallery-item">
+                    <a href="images/galeri6.jpg" data-fancybox>
+                        <img class="transition" src="images/galeri6.jpg" alt="image detail">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- konten video -->
+    <section id="gallery" class="gallery">
+        <div class="container pt-5 pb-5">
+            <!-- konten galeri -->
+            <!-- format dari w3 school -->
+            <h1 class="section-title">Galeri Video</h1>
+            
+            <div class="w3-content" style="max-width:800px">
+                <video class="videoSlider" controls width="100%">
+                    <source src="video/Skill 1_ Focus on the second line.mp4" type="video/mp4">
+                    Maaf, browser Anda tidak mendukung pemutaran video.
+                </video>
+
+                <video class="videoSlider" controls width="100%">
+                    <source src="video/Skill 2_ Choose answer with synonyms.mp4" type="video/mp4">
+                    Maaf, browser Anda tidak mendukung pemutaran video.
+                </video>
+
+                <video class="videoSlider" controls width="100%">
+                    <source src="video/Skill 3_ Avoid similar sounds.mp4" type="video/mp4">
+                    Maaf, browser Anda tidak mendukung pemutaran video.
+                </video>
+            </div>
+            <br>
+            <!-- untuk mengelola button -->
+            <div class="w3-center">
+                <div class="w3-section">
+                    <button class="w3-button w3-light-grey w3-round-medium" onclick="plusDivs(-1)">❮ Video Sebelumnya</button> <span style="margin: 0 8px;"></span>
+                    <button class="w3-button w3-light-grey w3-round-medium" onclick="plusDivs(1)">Video Sesudahnya ❯</button> <span style="margin: 0 8px;"></span>
+                </div>
+                <button class="btn btn-primary" onclick="currentDiv(1)"> Video 1</button> <span style="margin: 0 5px;"></span>
+                <button class="btn btn-primary" onclick="currentDiv(2)"> Video 2</button> <span style="margin: 0 5px;"></span>
+                <button class="btn btn-primary" onclick="currentDiv(3)"> Video 3</button> <span style="margin: 0 5px;"></span>
+            </div>
+        </div><br>
+    </section>
+
+    
+    <!-- berita dan artikel -->
+    <section id="artikel" class="artikel">
+        <div class="container pt-5 pb-5">
+            <h1 class="section-title">Berita dan Artikel</h1>
+
+            <!-- button filter -->
+            <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')">Tampilkan Keseluruhan</button>
+                    <span style="margin: 0 8px;"></span>
+                    <button class="btn" onclick="filterSelection('article')">Artikel</button>
+                    <span style="margin: 0 8px;"></span>
+                    <button class="btn" onclick="filterSelection('news')">Berita</button>
+            </div>
+            <br> <br>
+
+            <!-- konten artikel -->
+            <div class="row">
+                <div class="col-md-4 filterDiv article">
+                    <div class="event mb-4">
+                            <div class="event-image">
+                                <img class="transition" src="images/artikel1.png" alt="event detail">
+                            </div>
+                            <div class="event-detail p-3">
+                                <h2 class="pt-2 mb-3">
+                                    <a href="#">3 Keuntungan Mengikuti Tes TOEFL Online Bersertifikat</a>
+                                </h2>
+                                <div class="event-date mb-2">
+                                    📅 03/07/2024 
+                                </div>
+                                <div class="event-deskripsi">
+                                    <p>Mengapa penting untuk memilih tempat kursus TOEFL online bersertifikat? Sebab, sertifikat TOEFL telah menjadi syarat registrasi 
+                                        untuk beberapa kepentingan. Misalnya saja, ketika mendaftar ketika mendaftar kuliah...</p>
+                                </div>
+                                <a class="btn btn-secondary mb-3" href="#">Baca Selengkapnya</a>
+                            </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 filterDiv article">
+                    <div class="event mb-4">
+                            <div class="event-image">
+                                <img class="transition" src="images/artikel2.jpg" alt="event detail">
+                            </div>
+                            <div class="event-detail p-3">
+                                <h2 class="pt-2 mb-3">
+                                    <a href="#">Cara Mudah Belajar TOEFL Untuk Pemula</a>
+                                </h2>
+                                <div class="event-date mb-2">
+                                    📅 28/02/2024 
+                                </div>
+                                <div class="event-deskripsi">
+                                    <p>Mendengar kata TOEFL atau Test of English as a Foreign Languages maka bisa membuat siapapun menciut. 
+                                        Karena tingkat kesulitannya yang cukup tinggi dan tidak banyak material yang dijual bebas 
+                                        bisa benar-benar menjamin nilai tinggi dan...
+                                    </p>
+                                </div>
+                                <a class="btn btn-secondary mb-3" href="#">Baca Selengkapnya</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 filterDiv article">
+                    <div class="event mb-4">
+                            <div class="event-image">
+                                <img class="transition" src="images/artikel3.jpg" alt="event detail">
+                            </div>
+                            <div class="event-detail p-3">
+                                <h2 class="pt-2 mb-3">
+                                    <a href="#">Cara Menghitung Skor TOEFL dan Tabelnya</a>
+                                </h2>
+                                <div class="event-date mb-2">
+                                   📅 17/02/2024
+                                </div>
+                                <div class="event-deskripsi">
+                                    <p>Pernahkah kamu mengikuti tes TOEFL? Jika kamu belum atau baru akan mengikutinya, penting untuk mengetahui seluk beluk scoring TOEFL
+                                        atau cara menghitung skor TOEFL guna mengetahui berapa target nilai yang tepat yang harus kamu...</p>
+                                </div>
+                                <a class="btn btn-secondary mb-3" href="#">Baca Selengkapnya</a>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- konten berita -->
+                <div class="col-md-4 filterDiv news">
+                    <div class="event mb-4">
+                            <div class="event-image">
+                                <img class="transition" src="images/berita1.jpeg" alt="event detail">
+                            </div>
+                            <div class="event-detail p-3">
+                                <h2 class="pt-2 mb-3">
+                                    <a href="#">Beasiswa LPDP 2024 Dibuka, Cek Syarat Skor TOEFL dan IELTS di Sini</a>
+                                </h2>
+                                <div class="event-date mb-2">
+                                    📅 11/01/2024
+                                </div>
+                                <div class="event-deskripsi">
+                                    <p>Beasiswa Lembaga Pengelola Dana Pendidikan atau LPDP kembali dibuka pada 2024. 
+                                        Pendaftaran tahap pertama dibuka melalui laman <a href="https://lpdp.kemenkeu.go.id/" class="lpdp-link">https://lpdp.kemenkeu.go.id/</a> 
+                                        mulai Kamis, 11 Januari 2024. Beasiswa LPDP memiliki berbagai kategori untuk kuliah gratis di jenjang S2 atau S3 pada 2024. 
+                                        Kategori beasiswa LPDP tersebut yakni...
+                                    </p>                                    
+                                </div>
+                                <a class="btn btn-secondary mb-3" href="#">Baca Selengkapnya</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 filterDiv news">
+                    <div class="event mb-4">
+                            <div class="event-image">
+                                <img class="transition" src="images/berita2.jpg" alt="event detail">
+                            </div>
+                            <div class="event-detail p-3">
+                                <h2 class="pt-2 mb-3">
+                                    <a href="#">LPDP: Pendaftar Beasiswa dengan Dokumen Palsu Akan Dapat Sanksi Tegas</a>
+                                </h2>
+                                <div class="event-date mb-2">
+                                    📅 21/02/2023
+                                </div>
+                                <div class="event-deskripsi">
+                                    <p>Lembaga Pengelola Dana Pendidikan (LPDP) mengingatkan pendaftar beasiswa untuk lebih berhati-hati dalam melampirkan dokumen administrasi palsu. 
+                                        Selain untuk menghindari kesalahan, pendaftar juga dilarang melampirkan dokumen palsu."Proses seleksi administrasi adalah proses yang hitam-putih, gagalnya pendaftaran...
+                                </div>
+                                <a class="btn btn-secondary mb-3" href="#">Baca Selengkapnya</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 filterDiv news">
+                    <div class="event mb-4">
+                            <div class="event-image">
+                                <img class="transition" src="images/berita3.jpg" alt="event detail">
+                            </div>
+                            <div class="event-detail p-3">
+                                <h2 class="pt-2 mb-3">
+                                    <a href="#">9 Beasiswa Luar Negeri S1-S3 Tanpa Batas Usia yang Buka Tahun 2024</a>
+                                </h2>
+                                <div class="event-date mb-2">
+                                    📅 18/01/2024
+                                </div>
+                                <div class="event-deskripsi">
+                                    <p>Setiap tahun, sejumlah beasiswa S1, S2 dan S3 membuka pendaftaran tanpa syarat batas usia. Bahkan, ada yang sudah membuka pendaftaran untuk tahun 2024.
+                                         Jadi, bagi yang memiliki usia di atas 30 tahun dan ingin melanjutkan kuliah S1, S2 maupun S3, jangan lewatkan kesempatan untuk mendaftar. Selain tanpa
+                                         batasan usia...
+                                </div>
+                                <a class="btn btn-secondary mb-3" href="#">Baca Selengkapnya</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- testimoni peserta -->
+    <section id="testimoni" class="testimoni">
+        <div class="container pt-5 pb-5">
+            <h2 class="section-subtitle">Testimoni Lulusan TOEFL Course</h2>
+            <h1 class="section-title">Apa Kata Mereka?</h1>
+            <div class="owl-carousel owl-theme carousel-testimoni">
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-6 testimonial mb-5">
+                            <img class="transition" src="images/kuroko.png" alt="testimonial detail">
+                            <div class="testimonial-content">
+                                <h4>Kuroko Tetsuya</h4>
+                                <p>"Kursus TOEFL disini mempermudah saya dalam urusan persyaratan beasiswa ke Amerika. karena skor TOEFL
+                                    saya bagus, Kagami tidak menghina saya lagi"
+                                </p>
+                                <h5>Seirin High Basketball Player</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 testimonial mb-5">
+                            <img class="transition" src="images/shinomiya.png" alt="testimonial detail">
+                            <div class="testimonial-content">
+                                <h4>Shinomiya Kaguya</h4>
+                                <p>"Pada awalnya, saya kira saya bisa menyaingi skor TOEFL ketua Shirogane. Walau hanya selisih 3 angka, 3 angka
+                                    tersebut belum membuat saya puas. Maka dari itu saya ingin mencoba ikut kelas ini. Dan ternyata hasilnya
+                                    tidak begitu buruk. Sayaka bahkan mengatakan kalau ini termasuk langkah awal dalam menarik hati dari ayah ketua"</p>
+                                <h5>Vice President of the 67th and 68th Student Council at Shuchi'in Academy</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-6 testimonial mb-5">
+                            <img class="transition" src="images/lawliet.png" alt="testimonial detail">
+                            <div class="testimonial-content">
+                                <h4>L Lawliet</h4>
+                                <p>"Nilai skor yang tinggi bagi saya bukan suatu hal yang patut dipertanyakan.
+                                    Namun saya berpikir jika saya dapat memancing Kira keluar hanya dengan bermodalkan
+                                    skor yang tinggi. Karena dia tentu tidak mau kalah"
+                                </p>
+                                <h5>Detective</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 testimonial mb-5">
+                            <img class="transition" src="images/yagami.png" alt="testimonial detail">
+                            <div class="testimonial-content">
+                                <h4>Yagami Light</h4>
+                                <p>"L. Jika skor saya melebihi skor Ryuzaki apakah dia akan mencurigai saya sebagai Kira?
+                                    Sebagai siswa terpintar seantero Jepang, tentu saja saya harus memiliki skor diatas siapapun"</p>
+                                <h5>Kira</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- konten kontak -->
+    <section id="kontak" class="kontak">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="kontak-deskripsi">
+                        <h1 class="mb-5">Ada Kendala? Hubungi Kami</h1>
+                        <p>Jika anda memiliki kendala baik dalam pembelian kelas maupun ada hal yang sekiranya
+                            kurang jelas. Hubungi kami melalui nomer WhatsApp dibawah atau anda dapat mengisi formulir 
+                            disamping seperti yang sudah kami sediakan 
+                        </p><br>
+                        <a class="btn-wa" href="#">Hubungi Kami Lewat WA</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="kontak-form"> 
+                        <!-- artinya bisa di isi -->
+                        <form action=""> 
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Nama Lengkap">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Alamat Email">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Nomor Telepon">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Masukkan Pesan">
+                            </div> <br>
+
+                            <div class="mb-3">
+                                <button class="btn btn-primary" type="submit">Kirim Formulir</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container pt-5 pb-2">
+            <div class="row">
+                <div class="col-md-8 foot-bottom-text">
+                    <p style="color: white; font-weight: bold; font-weight: 600; font-size: large;"> PT. Teknologi Fluent Edu</p>
+                </div>
+                <div class="col-md-4 social-links content-right">
+                    <a href="#" class="fb">
+                        <i class="fab fa-facebook-f" href=""></i>
+                    </a>
+
+                    <a href="#" class="tw">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="#" class="ig">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- javascript -->
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- owl js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!-- import link js -->
+    <script src="js/filter.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

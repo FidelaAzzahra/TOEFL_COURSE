@@ -1,0 +1,37 @@
+/* login dan register jadi satu disini */
+
+h1, h2{
+    font-weight: 800;
+    color:var(--color-dark);
+}
+.section-title{
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 2em;
+    color: var(--color-merah);
+}
+.login-form { /* jarak untuk form yang register.html*/
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+.form-control {
+    margin-bottom: 2rem;
+}
+button {
+    margin-top: 1rem;
+    width: 100%;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.btn-primary:hover {
+    color: white;
+}
+.vh-100 {
+    min-height: 100vh;
+}
+:root{
+    --color-merah: #b11630;
+    --color-biru: #004AAD;
+}
