@@ -11,14 +11,26 @@ Terdapat 4 Penugasan ditiap minggunya dalam pembuatan proyek akhir TOEFL COURSE.
 - Minggu 4 : Mengembangkan website yang dibuat dengan menambahkan header (berisi logo lembaga pendidikan, menu navigasi, kotak pencarian dan informasi akun pengguna), mengembangkan menu program pelatihan dengan menambahkan program pelatihan yang ditawarkan, termasuk kurikulum, jadwal, informasi tenaga pelatih, biaya dan lain sebagainya, menambahkan akun sosial media, menambahkan footer, dan menambahkan satu landing page bebas yang berkaitan dengan lembaga pelatihan
 
 Berikut merupakan dokumentasi secara keseluruhan dari proyek akhir TOEFL COURSE.
-![Screenshot (146)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/58d32fc1-2588-4387-a334-240eb9dc59d7)
-![Screenshot (156)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/88ef4522-4b11-473c-895b-0121688947f6)
-![Screenshot (157)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/7445c026-5189-485c-a93d-4334ab7e397b)
-![Screenshot (158)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/5445f9ac-52b1-442e-8bfe-ea700c0c301c)
-![Screenshot (160)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/847b2f40-37bf-43ff-804a-d24ae282233a)
-![Screenshot (161)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/d3fd8ef4-4f51-4f04-99a3-e38e9f143f04)
-![Screenshot (166)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/096830b5-2413-413f-947c-8693ebf8e374)
-![Screenshot (163)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/14585f5d-80b1-4bce-ae99-f53e4be7fd4d)
-![Screenshot (165)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/d5485a75-9870-43d8-83b2-8927f005163c)
-![Screenshot (167)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/203bd23a-24bd-4b94-9bfe-a34e9e041c47)
-![Screenshot (170)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/1ec68993-4652-4810-bebe-7067556b41b1)
+![Screenshot (146)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/9c56ee9d-e6ad-4abf-9251-d5c448d768f9)
+
+![Screenshot (167)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/ae43e52d-2028-4ae2-a3b3-e2b69a4b9500)
+
+![Screenshot (170)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/a68f4b47-a06f-4d87-a79f-25d53d46345e)
+
+![Screenshot (156)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/15ba3861-bef0-4344-8657-98d1108da227)
+
+![Screenshot (157)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/299e0ecd-727e-453c-878e-5787dd732191)
+
+![Screenshot (171)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/0caeaaf9-2248-456e-853a-f8e6a7841d6e)
+
+![Screenshot (158)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/5420db16-20a2-45f5-af74-6e326513b96f)
+
+![Screenshot (160)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/88462632-1254-4f7e-8990-7f41cb2dec2d)
+
+![Screenshot (161)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/40efd257-9a36-40a3-b249-975652db4a62)
+
+![Screenshot (166)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/91d0b20b-60cd-440e-9a9c-d107cacba301)
+
+![Screenshot (163)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/6f5034cc-9f18-4ef0-bf76-a9e2bf86f80b)
+
+![Screenshot (165)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/13f36af4-2dcc-42f3-8b36-2f58e8e83003)
