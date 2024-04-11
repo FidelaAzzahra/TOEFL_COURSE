@@ -11,6 +11,7 @@ Terdapat 4 Penugasan ditiap minggunya dalam pembuatan proyek akhir TOEFL COURSE.
 - Minggu 4 : Mengembangkan website yang dibuat dengan menambahkan header (berisi logo lembaga pendidikan, menu navigasi, kotak pencarian dan informasi akun pengguna), mengembangkan menu program pelatihan dengan menambahkan program pelatihan yang ditawarkan, termasuk kurikulum, jadwal, informasi tenaga pelatih, biaya dan lain sebagainya, menambahkan akun sosial media, menambahkan footer, dan menambahkan satu landing page bebas yang berkaitan dengan lembaga pelatihan
 
 Berikut merupakan dokumentasi secara keseluruhan dari proyek akhir TOEFL COURSE.
+
 ![Screenshot (146)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/9c56ee9d-e6ad-4abf-9251-d5c448d768f9)
 
 ![Screenshot (167)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/ae43e52d-2028-4ae2-a3b3-e2b69a4b9500)
