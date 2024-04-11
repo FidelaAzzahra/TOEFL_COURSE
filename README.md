@@ -20,3 +20,5 @@ Berikut merupakan dokumentasi secara keseluruhan dari proyek akhir TOEFL COURSE.
 ![Screenshot (166)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/096830b5-2413-413f-947c-8693ebf8e374)
 ![Screenshot (163)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/14585f5d-80b1-4bce-ae99-f53e4be7fd4d)
 ![Screenshot (165)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/d5485a75-9870-43d8-83b2-8927f005163c)
+![Screenshot (167)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/203bd23a-24bd-4b94-9bfe-a34e9e041c47)
+![Screenshot (170)](https://github.com/FidelaAzzahra/TOEFL_COURSE/assets/114632917/1ec68993-4652-4810-bebe-7067556b41b1)
